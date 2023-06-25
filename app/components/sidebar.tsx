@@ -118,14 +118,14 @@ export function SideBar(props: { className?: string }) {
         shouldNarrow && styles["narrow-sidebar"]
       }`}
     >
-      <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+      <div className={styles["sidebar-header"]}><a href="https://www.gptacg.com">
+        <div className={styles["sidebar-title"]}>ChatGPT - 蛋壳部署</div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          由ChatGPT4.0强劲模型驱动
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
-        </div>
+        </div></a>
       </div>
 
       <div className={styles["sidebar-header-bar"]}>
